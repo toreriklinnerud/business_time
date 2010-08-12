@@ -4,11 +4,11 @@ require 'rake'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "business_time"
+    gem.name = "alphasights-business_time"
     gem.summary = %Q{Support for doing time math in business hours and days}
     gem.description = %Q{Have you ever wanted to do things like "6.business_days.from_now" and have weekends and holidays taken into account?  Now you can.}
     gem.email = "dbock@codesherpas.com"
-    gem.homepage = "http://github.com/bokmann/business_time"
+    gem.homepage = "http://github.com/slawosz/business_time/tree/hours_left"
     gem.authors = ["bokmann"]
     gem.add_development_dependency "shoulda", ">= 0"
     gem.add_dependency('activesupport','>= 2.0.0')
